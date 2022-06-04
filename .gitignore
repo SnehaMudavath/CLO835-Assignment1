@@ -4,7 +4,7 @@
 
 *.pub
 
-*key*
+*week1-dev*
 
 terraform.tfstate.backup
 
