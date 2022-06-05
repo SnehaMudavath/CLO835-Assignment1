@@ -2,7 +2,8 @@
 
 #----------------------------------------------------------
 # Assignment-1 Sneha Mudavath - 131741209
-# Build EC2 Instances and ECR
+# Build EC2 Instances
+#Build ECR
 #----------------------------------------------------------
 
 #  Define the provider
@@ -108,7 +109,6 @@ resource "aws_eip" "static_eip" {
     }
   )
 }
-
 resource "aws_ecr_repository" "ecr-repo" {
   name                 = "clo835-cats-dogs"
   image_tag_mutability = "MUTABLE"
