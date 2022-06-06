@@ -37,7 +37,7 @@ jobs:
         env: 
           ECR_REGISTRY: ${{steps.login-ecr.outputs.registry}}
           ECR_REPOSITORY: clo835-cats-dogs
-          IMAGE_TAG: catsv0.1
+          IMAGE_TAG: cats-new
           
      
         run: |
@@ -58,7 +58,7 @@ jobs:
         env: 
           ECR_REGISTRY: ${{steps.login-ecr.outputs.registry}}
           ECR_REPOSITORY: clo835-cats-dogs
-          IMAGE_TAG: dogsv0.1
+          IMAGE_TAG: dogs-new
           
      
         run: |
