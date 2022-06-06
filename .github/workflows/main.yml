@@ -49,7 +49,7 @@ jobs:
           docker run -d -p 8080:80 --name clo835-cats-dogs-cats $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
          
           docker ps
-          echo " sleep 10 seconds for container to run"
+          echo " sleep 10 seconds container to run"
           sleep 10
          
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
